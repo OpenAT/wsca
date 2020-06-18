@@ -11,12 +11,9 @@
                 <li class="dropdown-submenu">
                     <a tabindex="-2" href="#">Uniform Color</a>
                     <ul class="dropdown-menu">
-                        <li data-value='oe_grey'><a>wsca Grau</a></li>
-                        <li data-value='oe_grey_light'><a>wsca Grau Hell</a></li>
                         <li data-value='oe_red'><a>Red</a></li>
                         <li data-value='oe_white'><a>Weiss</a></li>
                         <li data-value='oe_green'><a>Grün</a></li>
-                        <li data-value='oe_blue'><a>Blau</a></li>
                     </ul>
                 </li>
             <li data-value=""><a>None</a></li>
