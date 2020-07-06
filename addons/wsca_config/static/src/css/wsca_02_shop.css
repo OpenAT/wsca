@@ -131,6 +131,9 @@ div.checkout_steps_buttons {
 #wsd_checkout_steps_nav a[href*="login"] {
     display: none;
 }
+.oe_product_cart .quick_add_to_cart {
+    float: right;
+}
 
 
 /* -------- */
