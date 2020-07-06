@@ -23,12 +23,12 @@
     width: auto;
     max-width: initial;
 }
-.oe_product .oe_product_image img {
+
+.oe_product .oe_product_image {
      left: initial;
      right: initial;
      top: initial;
      bottom: initial;
-
 }
 /* hide description in Kacheln*/
 
@@ -62,7 +62,21 @@ body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
 }
-
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="5"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="6"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="7"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 /* TODO: Shop Grid Size for col md-12 and two products per row
          You may need to remove the original css of website.sale becaues the media queries are different for rnde!
