@@ -78,6 +78,18 @@ body[data-rootcatid="7"] #wrap > div.container.oe_website_sale > div.row {
     flex-direction: column-reverse;
 }
 
+@media (max-width: 768px) {
+    .oe_product section {
+        top: 296px !important;
+    }
+}
+.oe_website_sale {
+    margin-bottom: 4em !important;
+}
+.oe_product section {
+    top: 138px;
+    min-height: 80px !important;
+}
 /* TODO: Shop Grid Size for col md-12 and two products per row
          You may need to remove the original css of website.sale becaues the media queries are different for rnde!
 */
