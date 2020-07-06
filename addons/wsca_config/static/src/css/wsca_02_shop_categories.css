@@ -25,10 +25,10 @@
 }
 
 .oe_product .oe_product_image {
-     left: initial;
-     right: initial;
-     top: initial;
-     bottom: initial;
+     left: 0px;
+     right: 0px;
+     top: 0px;
+     bottom: px;
 }
 /* hide description in Kacheln*/
 
