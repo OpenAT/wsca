@@ -47,35 +47,76 @@
 .oe_product_cart .quick_add_to_cart .a-submit.fa-shopping-cart:before {
     padding-right:10px;
 }
+
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
 }
+body[data-rootcatid="2"] .products_pager .input-group {
+    display: none;
+}
+body[data-rootcatid="2"] .products_grid_before {
+    margin-top: 2em;
+}
+
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="3"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
 }
+body[data-rootcatid="3"] .products_pager .input-group {
+    display: none;
+}
+body[data-rootcatid="3"] .products_grid_before {
+    margin-top: 2em;
+}
+
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
 }
+body[data-rootcatid="4"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="4"] .products_grid_before {
+    margin-top: 2em;
+}
+
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="5"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
+}
+body[data-rootcatid="5"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="5"] .products_grid_before {
+    margin-top: 2em;
 }
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="6"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
 }
+body[data-rootcatid="6"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="6"] .products_grid_before {
+    margin-top: 2em;
+}
+
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="7"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
+}
+body[data-rootcatid="7"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="7"] .products_grid_before {
+    margin-top: 2em;
 }
 
 @media (max-width: 768px) {

@@ -186,7 +186,7 @@ div.checkout_steps_buttons {
 }
 
 /* BIC ausblenden TODO: Must be done by xml! */
-#aq4 > div:nth-child(6) {
+#aq2 > div:nth-child(6) {
     display: none;
 }
 
