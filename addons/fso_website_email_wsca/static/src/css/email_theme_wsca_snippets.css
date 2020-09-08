@@ -1,0 +1,508 @@
+/* ------------------------------- */
+/* wsca SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+
+.flexibleContainer {
+    width: 650px;
+}
+#combinedsnippetfooter .snippet_block_text_image_left .flexibleContainerLeft,
+#combinedsnippetfooter .snippet_block_text_image_left .flexibleContainerLeft .flexibleImage
+    {
+    width: 64px;
+    }
+#combinedsnippetfooter .snippet_block_text_image_left .flexibleContainerRight,
+#combinedsnippetfooter .snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 490px;
+}
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left .flexibleContainerRight,
+.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_left.wsca_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_sb_fg_green .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_sb_fg_background .flexibleContainerRight {
+    width: 340px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right .flexibleContainerLeft,
+.snippet_block_text_image_right .flexibleContainerLeft .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_right.wsca_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_sb_fg_green .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_sb_fg_background .flexibleContainerLeft {
+    width: 340px;
+}
+
+/* .snippet_block_text_twocol */
+.snippet_block_text_twocol .flexibleContainerRight,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 295px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    width: 295px;
+}
+
+/* .snippet_block_text_threecol */
+.snippet_block_text_threecol .flexibleContainer33,
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
+    width: 190px;
+}
+
+/* .snippet_block_banner */
+.snippet_block_banner .flexibleImage,
+.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+    width: 610px;
+    max-width: 610px;
+}
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 650px;
+    max-width: 650px;
+}
+.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+    width: 570px;
+    max-width: 570px;
+}
+
+
+
+
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+
+.dadi_sb_spacer_solid .snippet_block_spacer_top td {
+    border-bottom: 5px solid #9b1934;
+}
+/* Background and Foreground Options for Snippet Blocks */
+/* ---------------------------------------------------- */
+.wsca_sb_bg_background .flexibleContainerCell,
+.wsca_sb_fg_background .flexibleContainerCell .nestedContainerCell {
+    background-color: #f6f6f5;
+}
+.wsca_sb_bg_green .flexibleContainerCell,
+.wsca_sb_fg_green .flexibleContainerCell .nestedContainerCell {
+    background-color: #92a8a9;
+    color: black;
+}
+.wsca_sb_bg_red .flexibleContainerCell,
+.wsca_sb_fg_red .flexibleContainerCell .nestedContainerCell {
+    background-color: #9b1934;
+}
+.wsca_sb_fg_red .flexibleContainerCell .nestedContainerCell h1 {
+    color: white;
+}
+.wsca_sb_bg_grey .flexibleContainerCell,
+.wsca_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
+    background-color: #90979b;
+    color: white;
+}
+.wsca_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.wsca_sb_fg_red .flexibleContainerCell .nestedContainerCell,
+.wsca_sb_fg_grey .flexibleContainerCell .nestedContainerCell,
+.wsca_sb_fg_green .flexibleContainerCell .nestedContainerCell {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0;
+}
+
+/* wsca_snippet_block_padding */
+/* -------------------------- */
+
+.snippet_block.wsca_snippet_block_padding_none .flexibleContainer .flexibleContainerCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block.wsca_snippet_block_padding_lower .flexibleContainer .flexibleContainerCell {
+    padding-bottom: 0;
+}
+.snippet_block.wsca_snippet_block_padding_smallbox .flexibleContainer .flexibleContainerCell {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.snippet_block.wsca_snippet_block_padding_largebox .flexibleContainer .flexibleContainerCell {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+/* wsca_snipped_block_img_padding_top */
+/* ---------------------------------- */
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_none {
+    padding-top: initial;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_10 {
+    padding-top: 10px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_20 {
+    padding-top: 20px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_30 {
+    padding-top: 30px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_40 {
+    padding-top: 40px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_50 {
+    padding-top: 50px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.wsca_snippet_block_img_padding_top_60 {
+    padding-top: 60px;
+}
+
+/* .wsca_text_image_red_box, wsca_text_image_wscagrey_box */
+/* -------------------------------------------------- */
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_text_image_red_box .flexibleContainerLeft {
+    background-color: white;
+}
+
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .contentTable {
+    background-color: #90979b;
+}
+.snippet_block_text_image_left.wsca_text_image_red_box .contentTable {
+    background-color: #9b1934;
+}
+
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .flexibleContainerCell,
+.snippet_block_text_image_left.wsca_text_image_red_box .flexibleContainerCell {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .flexibleContainerCell .flexibleContainerRight .textContent,
+.snippet_block_text_image_left.wsca_text_image_red_box .flexibleContainerCell .flexibleContainerRight .textContent {
+    padding: 10px 20px 10px 0;
+}
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_text_image_red_box .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_text_image_red_box .flexibleContainerRight{
+    min-height: 30px;
+}
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent p,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent a,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent a:visited,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent div,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent h1,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent h2,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent h3,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent h4,
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .textContent h5,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent p,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent a,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent a:visited,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent div,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent h1,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent h2,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent h3,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent h4,
+.snippet_block_text_image_left.wsca_text_image_red_box .textContent h5,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent p,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent a,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent a:visited,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent div,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent h1,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent h2,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent h3,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent h4,
+.snippet_block_text_image_left.wsca_sb_fg_red .textContent h5,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent p,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent a,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent a:visited,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent div,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent h1,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent h2,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent h3,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent h4,
+.snippet_block_text_image_right.wsca_sb_fg_red .textContent h5,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent p,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent a,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent a:visited,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent div,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent h1,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent h2,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent h3,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent h4,
+.snippet_block_text_intro.wsca_sb_fg_red .textContent h5,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent p,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent a,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent a:visited,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent div,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent h1,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent h2,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent h3,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent h4,
+.snippet_block_text_twocol.wsca_sb_fg_red .textContent h5 {
+    color: white;
+}
+
+/*.snippet_block_text_image_left.wsca_sb_fg_green .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_image_left.wsca_sb_fg_grey .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_image_left.wsca_sb_fg_background .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_image_right.wsca_sb_fg_green .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_image_right.wsca_sb_fg_grey .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_image_right.wsca_sb_fg_background .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_intro.wsca_sb_fg_green .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_intro.wsca_sb_fg_grey .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_intro.wsca_sb_fg_background .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_twocol.wsca_sb_fg_green .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_twocol.wsca_sb_fg_grey .textContent p,a,a:visited,div,h1,h2,h3,h4,h5,
+.snippet_block_text_twocol.wsca_sb_fg_background .textContent p,a,a:visited,div,h1,h2,h3,h4,h5
+{
+    color: initial;
+}*/
+.snippet_block_text_image_left.wsca_text_image_wscagrey_box .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_text_image_red_box .flexibleContainerRight {
+    width: 430px;
+    /*width: 450px;*/
+}
+
+
+/* .snippet_block_text_image_left Image Height */
+/* ------------------------------------------- */
+/*
+    min-height would be the best option but will not work in outlook on windows :( I HATE OUTLOOK !!!!
+*/
+/*.snippet_block_text_image_left.wsca_image_height_100 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_image_height_100 .contentTable .flexibleContainerLeft {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.wsca_image_height_150 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_image_height_150 .contentTable .flexibleContainerLeft {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.wsca_image_height_200 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_image_height_200 .contentTable .flexibleContainerLeft {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.wsca_image_height_250 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_image_height_250 .contentTable .flexibleContainerLeft {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.wsca_image_height_300 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_image_height_300 .contentTable .flexibleContainerLeft {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.wsca_image_height_400 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_image_height_400 .contentTable .flexibleContainerLeft {
+    min-height: 400px;
+}*/
+
+/*
+    This will work with outlook on windows
+*/
+.snippet_block_text_image_left.wsca_image_height_100 .contentTable .flexibleContainerRight {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.wsca_image_height_150 .contentTable .flexibleContainerRight {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.wsca_image_height_200 .contentTable .flexibleContainerRight {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.wsca_image_height_250 .contentTable .flexibleContainerRight {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.wsca_image_height_300 .contentTable .flexibleContainerRight {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.wsca_image_height_400 .contentTable .flexibleContainerRight {
+    min-height: 400px;
+}
+
+.snippet_block_text_image_left.wsca_image_height_100 .contentTable .flexibleContainerLeft .imageContent {
+    height: 100px;
+}
+.snippet_block_text_image_left.wsca_image_height_150 .contentTable .flexibleContainerLeft .imageContent {
+    height: 150px;
+}
+.snippet_block_text_image_left.wsca_image_height_200 .contentTable .flexibleContainerLeft .imageContent {
+    height: 200px;
+}
+.snippet_block_text_image_left.wsca_image_height_250 .contentTable .flexibleContainerLeft .imageContent {
+    height: 250px;
+}
+.snippet_block_text_image_left.wsca_image_height_300 .contentTable .flexibleContainerLeft .imageContent {
+    height: 300px;
+}
+.snippet_block_text_image_left.wsca_image_height_400 .contentTable .flexibleContainerLeft .imageContent {
+    height: 400px;
+}
+
+
+/* .snippet_block_text_image_left Image Vertical Align */
+/* --------------------------------------------------- */
+.snippet_block_text_image_left.wsca_image_valign_middle .flexibleContainerLeft .imageContent{
+    vertical-align: middle;
+}
+.snippet_block_text_image_left.wsca_image_valign_bottom .flexibleContainerLeft .imageContent{
+    vertical-align: bottom;
+}
+
+/* .wsca_large_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.wsca_large_image .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_large_image .flexibleContainerLeft .flexibleImage {
+    width: 350px;
+}
+.snippet_block_text_image_left.wsca_large_image .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_large_image .flexibleContainerRight .flexibleImage {
+    width: 240px;
+}
+.snippet_block_text_image_left.wsca_large_image.wsca_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_large_image.wsca_sb_fg_green .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_large_image.wsca_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_large_image.wsca_sb_fg_background .flexibleContainerRight {
+    width: 190px;
+}
+.snippet_block_text_image_left.wsca_large_image.wsca_text_image_wscagrey_box .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_large_image.wsca_text_image_red_box .flexibleContainerRight {
+    width: 280px;
+    /*width: 300px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.wsca_large_image .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_large_image .flexibleContainerLeft .flexibleImage {
+    width: 240px;
+}
+.snippet_block_text_image_right.wsca_large_image .flexibleContainerRight,
+.snippet_block_text_image_right.wsca_large_image .flexibleContainerRight .flexibleImage {
+    width: 350px;
+}
+.snippet_block_text_image_right.wsca_large_image.wsca_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_large_image.wsca_sb_fg_green .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_large_image.wsca_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_large_image.wsca_sb_fg_background .flexibleContainerLeft {
+    width: 190px;
+}
+
+/* .wsca_medium_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.wsca_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_left.wsca_medium_image .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_medium_image .flexibleContainerRight .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_left.wsca_medium_image.wsca_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_medium_image.wsca_sb_fg_green .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_medium_image.wsca_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_medium_image.wsca_sb_fg_background .flexibleContainerRight {
+    width: 270px;
+}
+.snippet_block_text_image_left.wsca_medium_image.wsca_text_image_wscagrey_box .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_medium_image.wsca_text_image_red_box .flexibleContainerRight {
+    width: 360px;
+    /*width: 380px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.wsca_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_right.wsca_medium_image .flexibleContainerRight,
+.snippet_block_text_image_right.wsca_medium_image .flexibleContainerRight .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_right.wsca_medium_image.wsca_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_medium_image.wsca_sb_fg_green .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_medium_image.wsca_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_medium_image.wsca_sb_fg_background .flexibleContainerLeft {
+    width: 270px;
+}
+
+/* .wsca_small_image: image size 140px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.wsca_small_image .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_small_image .flexibleContainerLeft .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_left.wsca_small_image .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_small_image .flexibleContainerRight .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_left.wsca_small_image.wsca_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_small_image.wsca_sb_fg_green .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_small_image.wsca_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_small_image.wsca_sb_fg_background .flexibleContainerRight {
+    width: 400px;
+}
+.snippet_block_text_image_left.wsca_small_image.wsca_text_image_wscagrey_box .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_small_image.wsca_text_image_red_box .flexibleContainerRight {
+    width: 490px;
+    /*width: 510px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.wsca_small_image .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_small_image .flexibleContainerLeft .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_right.wsca_small_image .flexibleContainerRight,
+.snippet_block_text_image_right.wsca_small_image .flexibleContainerRight .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_right.wsca_small_image.wsca_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_small_image.wsca_sb_fg_green .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_small_image.wsca_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_small_image.wsca_sb_fg_background .flexibleContainerLeft {
+    width: 400px;
+}
+
+
+/* .wsca_tiny_image: image size 90px */
+/* --------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.wsca_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_left.wsca_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_left.wsca_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_left.wsca_tiny_image.wsca_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_tiny_image.wsca_sb_fg_green .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_tiny_image.wsca_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_tiny_image.wsca_sb_fg_background .flexibleContainerRight {
+    width: 450px;
+}
+.snippet_block_text_image_left.wsca_tiny_image.wsca_text_image_wscagrey_box .flexibleContainerRight,
+.snippet_block_text_image_left.wsca_tiny_image.wsca_text_image_red_box .flexibleContainerRight {
+    width: 540px;
+    /*width: 560px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.wsca_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_right.wsca_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_right.wsca_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_right.wsca_tiny_image.wsca_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_tiny_image.wsca_sb_fg_green .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_tiny_image.wsca_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.wsca_tiny_image.wsca_sb_fg_background .flexibleContainerLeft {
+    width: 450px;
+}

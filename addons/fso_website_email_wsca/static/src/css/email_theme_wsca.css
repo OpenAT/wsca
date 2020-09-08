@@ -1,0 +1,160 @@
+/* ---- */
+/* MAIN */
+/* ---- */
+html, body, #bodyTable, #bodyCell {
+    background-color: #ffffff;
+}
+html body #wrapwrap {
+    margin-top: 0;
+}
+.headerCell {
+    font-size: 12px;
+}
+
+#open_in_browser {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*
+    ====
+    body
+    ====
+*/
+#bodyCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+/* ------------------------------- */
+/* wsca SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+#emailBody {
+    width: 650px;
+}
+
+/* ---------- */
+/* Typography */
+/* ---------- */
+/* Workaround for Outlook  mso-special-format:bullet;  ul li, and ol and li*/
+body,
+p,
+a {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    /*
+    font-family: "HelveticaNeueLT Com 45 Lt", Helvetica, Arial;
+    */
+        font-family: "Helvetica Neue", Helvetica, Arial;
+
+    font-size: 16px;
+    color: #333333;
+}
+#emailBody ul li,
+#emailBody ol li {
+        font-family: "helvetica lt condensedblack", Helvetica, Arial;
+        font-size: 18px;
+        color: #333333;
+}
+
+/* ATTENTION: Do not add line-height to "td", "div" or "span" elements to support Outlook 2013 and alike */
+p {
+    line-height: 1.5em;
+}
+div, span, td {
+    font-size: inherit;
+}
+
+p {
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+/* Links */
+a,
+a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Headlines */
+.h1, .h2, .h3,
+h1, h2, h3 {
+    margin-top: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: "helvetica lt condensedblack", Helvetica, arial;
+    line-height: 140%;
+    color: #9b1934;
+
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+.h1, h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #9b1934;
+}
+.h2, h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #9b1934;
+}
+.h3, h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.h4, h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #9b1934;
+}
+.h5, h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+.h6, h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+blockquote {
+    padding: 11px 22px;
+    margin: 0 0 22px;
+    font-size: 20px;
+    border-left: 5px solid #8c8c8c;
+}
+
+p.wsca_small {
+    font-size: 14px;
+}
+
+p.wsca_tiny {
+    font-size: 10px;
+}
+
+.wsca_red {
+    color: #9b1934;
+}
+
