@@ -76,7 +76,7 @@
                 <!-- COMMON CSS-ASSETS AND <head> TAGS -->
                 <link data-premailer="ignore" href="https://db.onlinewebfonts.com/c/d064de6e0d13377cef8e4b7a1d77a317?family=Helvetica+LT+CondensedBlack" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href="https://db.onlinewebfonts.com/c/ad4f223f08dab24cfc81e643bb88cc66?family=Helvetica+Neue" rel="stylesheet" type="text/css" t-ignore="true"/>
-                <link data-premailer="ignore" href='/fso_website_email_gl2k/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+                <link data-premailer="ignore" href='/fso_website_email_wsca/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>
                 <t t-call="fso_website_email.theme_head_common"/>
                 
                 <!-- THEME wsca CSS-ASSETS IN EDIT MODE ONLY -->

@@ -103,7 +103,7 @@
                                                                                                         class="imageContent ckediting_enabled"
                                                                                                         valign="top">
                                                                                                         <a href="https://www.wolfscience.at">
-                                                                                                            <img class="flexibleImage" src="/fso_website_email_wsca/static/src/img/Header_WSC_Wolfsnewsletter.jpg" style="width:450px; max-height:90px;"></img>
+                                                                                                            <img class="flexibleImage" src="/fso_website_email_wsca/static/src/img/Header_WSC_Wolfsnewsletter.jpg" width="450" alt="wsca logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 90px; max-width: 450px;"></img>
                                                                                                         </a>
                                                                                                     </td>
                                                                                                 </tr>
@@ -525,7 +525,7 @@
                                                                                                             <a href="https://the-goodstuff.com/"
                                                                                                                target="_blank">
                                                                                                                 <img class="flexibleImage"
-                                                                                                                     src="/fso_website_email_wsca/static/src/img/TGS_LOGO_2017_Registered_mit-Zusatz.jpg" style="width:94px;"></img>
+                                                                                                                     src="/fso_website_email_wsca/static/src/img/TGS_LOGO_2017_Registered_mit-Zusatz.jpg" width="64" alt="TGS Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
                                                                                                             </a>
                                                                                                         </td>
                                                                                                     </tr>
@@ -608,7 +608,7 @@
                                                                                                             <a href="https://www.gh-luger.at"
                                                                                                                target="_blank">
                                                                                                                 <img class="flexibleImage"
-                                                                                                                     src="/fso_website_email_wsca/static/src/img/Logo-oekologisches-gaestehaus.jpg" style="width:94px;"></img>
+                                                                                                                     src="/fso_website_email_wsca/static/src/img/Logo-oekologisches-gaestehaus.jpg" width="64" alt="GH Luger Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
                                                                                                             </a>
                                                                                                         </td>
                                                                                                     </tr>
@@ -684,9 +684,9 @@
                                                                                                         <td align="left"
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="top">
-                                                                                                            <a href="https://www.gh-luger.at"
+                                                                                                            <a href="https://huetthaler.at/"
                                                                                                                target="_blank">
-                                                                                                                <img class="flexibleImage" src="/fso_website_email_wsca/static/src/img/Logo-Huetthaler.png" style="width:94px;"></img>
+                                                                                                                <img class="flexibleImage" src="/fso_website_email_wsca/static/src/img/Logo-Huetthaler.png" width="64" alt="Huetthaler Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
                                                                                                             </a>
                                                                                                         </td>
                                                                                                     </tr>
