@@ -149,8 +149,205 @@
                                                                                                 PatInnen-Newsletter
                                                                                             </h1>
 
-                                                                                            <h4>Liebe Frau Ing.
-                                                                                                Mustermann,
+                                                                                            <h4>
+                                                                                                <span class="ckediting_disabled drop_in drop_in_print_field pf_anredelang">
+                                                                                                    <span class="pf_vorname"
+                                                                                                          data-fs-email-placeholder="%Vorname%"
+                                                                                                          title="%Vorname%">
+                                                                                                        Maximilian
+                                                                                                    </span>
+                                                                                                    <span class="pf_name"
+                                                                                                          data-fs-email-placeholder="%Name%"
+                                                                                                          title="%Name%">
+                                                                                                        Mustermann
+                                                                                                    </span>
+                                                                                                    <span class="pf_anredelower"
+                                                                                                          data-fs-email-placeholder="%AnredeLower%"
+                                                                                                          title="%AnredeLower%">
+                                                                                                        AnredeLower
+                                                                                                    </span>
+                                                                                                    <span class="pf_anredekurz"
+                                                                                                          data-fs-email-placeholder="%AnredeKurz%"
+                                                                                                          title="%AnredeKurz%">
+                                                                                                        AnredeKurz
+                                                                                                    </span>
+                                                                                                    <span class="pf_anredelang"
+                                                                                                          data-fs-email-placeholder="%AnredeLang%"
+                                                                                                          title="%AnredeLang%">
+                                                                                                        AnredeLang
+                                                                                                    </span>
+                                                                                                    <span class="pf_anrede"
+                                                                                                          data-fs-email-placeholder="%Anrede%"
+                                                                                                          title="%Anrede%">
+                                                                                                        Anrede
+                                                                                                    </span>
+                                                                                                    <span class="pf_anredetitel"
+                                                                                                          data-fs-email-placeholder="%Anredetitel%"
+                                                                                                          title="%Anredetitel%">
+                                                                                                        Anredetitel
+                                                                                                    </span>
+                                                                                                    <span class="pf_titel"
+                                                                                                          data-fs-email-placeholder="%Titel%"
+                                                                                                          title="%Titel%">
+                                                                                                        Titel
+                                                                                                    </span>
+                                                                                                    <span class="pf_titelnachgestellt"
+                                                                                                          data-fs-email-placeholder="%TitelNachgestellt%"
+                                                                                                          title="%TitelNachgestellt%">
+                                                                                                        TitelNachgestellt
+                                                                                                    </span>
+                                                                                                    <span class="pf_titelnachname"
+                                                                                                          data-fs-email-placeholder="%TitelNachname%"
+                                                                                                          title="%TitelNachname%">
+                                                                                                        TitelNachname
+                                                                                                    </span>
+                                                                                                    <span class="pf_email"
+                                                                                                          data-fs-email-placeholder="%Email%"
+                                                                                                          title="%Email%">
+                                                                                                        maximilian.mustermann@meinedomain.com
+                                                                                                    </span>
+                                                                                                    <span class="pf_geburtsdatum"
+                                                                                                          data-fs-email-placeholder="%Geburtsdatum%"
+                                                                                                          title="%Geburtsdatum%">
+                                                                                                        01.01.1980
+                                                                                                    </span>
+                                                                                                    <span class="pf_bank"
+                                                                                                          data-fs-email-placeholder="%Bank%"
+                                                                                                          title="%Bank%">
+                                                                                                        Bank
+                                                                                                    </span>
+                                                                                                    <span class="pf_iban_verschluesselt"
+                                                                                                          data-fs-email-placeholder="%IBAN_Verschluesselt%"
+                                                                                                          title="%IBAN_Verschluesselt%">
+                                                                                                        IBAN_Verschlüsselt
+                                                                                                    </span>
+                                                                                                    <span class="pf_iban"
+                                                                                                          data-fs-email-placeholder="%IBAN%"
+                                                                                                          title="%IBAN%">
+                                                                                                        IBAN
+                                                                                                    </span>
+                                                                                                    <span class="pf_bic"
+                                                                                                          data-fs-email-placeholder="%BIC%"
+                                                                                                          title="%BIC%">
+                                                                                                        BIC
+                                                                                                    </span>
+                                                                                                    <span class="pf_jahresbeitrag"
+                                                                                                          data-fs-email-placeholder="%Jahresbeitrag%"
+                                                                                                          title="%Jahresbeitrag%">
+                                                                                                        Jahresbeitrag
+                                                                                                    </span>
+                                                                                                    <span class="pf_teilbeitrag"
+                                                                                                          data-fs-email-placeholder="%Teilbeitrag%"
+                                                                                                          title="%Teilbeitrag%">
+                                                                                                        Teilbeitrag
+                                                                                                    </span>
+                                                                                                    <span class="pf_zahlungsintervall"
+                                                                                                          data-fs-email-placeholder="%Zahlungsintervall%"
+                                                                                                          title="%Zahlungsintervall%">
+                                                                                                        Zahlungsintervall
+                                                                                                    </span>
+                                                                                                    <span class="pf_naechstevorlageammonatjahr"
+                                                                                                          data-fs-email-placeholder="%NaechsteVorlageAmMonatJahr%"
+                                                                                                          title="%NaechsteVorlageAmMonatJahr%">
+                                                                                                        NaechsteVorlageAmMonatJahr
+                                                                                                    </span>
+                                                                                                    <span class="pf_naechstevorlageam"
+                                                                                                          data-fs-email-placeholder="%NaechsteVorlageAm%"
+                                                                                                          title="%NaechsteVorlageAm%">
+                                                                                                        NaechsteVorlageAm
+                                                                                                    </span>
+                                                                                                    <span class="pf_wunschspendenbetrag"
+                                                                                                          data-fs-email-placeholder="%WunschSpendenbetrag%"
+                                                                                                          title="%WunschSpendenbetrag%">
+                                                                                                        WunschSpendenbetrag
+                                                                                                    </span>
+                                                                                                    <span class="pf_zahlungsreferenz"
+                                                                                                          data-fs-email-placeholder="%Zahlungsreferenz%"
+                                                                                                          title="%Zahlungsreferenz%">
+                                                                                                        Zahlungsreferenz
+                                                                                                    </span>
+                                                                                                    <span class="pf_jahr"
+                                                                                                          data-fs-email-placeholder="%Jahr%"
+                                                                                                          title="%Jahr%">
+                                                                                                        Jahr
+                                                                                                    </span>
+                                                                                                    <span class="pf_betragspendenquittung"
+                                                                                                          data-fs-email-placeholder="%BetragSpendenquittung%"
+                                                                                                          title="%BetragSpendenquittung%">
+                                                                                                        BetragSpendenquittung
+                                                                                                    </span>
+                                                                                                    <span class="pf_patentier"
+                                                                                                          data-fs-email-placeholder="%Patentier%"
+                                                                                                          title="%Patentier%">
+                                                                                                        Patentier
+                                                                                                    </span>
+                                                                                                    <span class="pf_namebeschenkter"
+                                                                                                          data-fs-email-placeholder="%NameBeschenkter%"
+                                                                                                          title="%NameBeschenkter%">
+                                                                                                        NameBeschenkter
+                                                                                                    </span>
+                                                                                                    <span class="pf_nameschenker"
+                                                                                                          data-fs-email-placeholder="%NameSchenker%"
+                                                                                                          title="%NameSchenker%">
+                                                                                                        NameSchenker
+                                                                                                    </span>
+                                                                                                    <span class="pf_patenkind"
+                                                                                                          data-fs-email-placeholder="%Patenkind%"
+                                                                                                          title="%Patenkind%">
+                                                                                                        Patenkind
+                                                                                                    </span>
+                                                                                                    <span class="pf_patenkindvorname"
+                                                                                                          data-fs-email-placeholder="%PatenkindVorname%"
+                                                                                                          title="%PatenkindVorname%">
+                                                                                                        PatenkindVorname
+                                                                                                    </span>
+                                                                                                    <span class="pf_bpkvorname"
+                                                                                                          data-fs-email-placeholder="%BPKVorname%"
+                                                                                                          title="%BPKVorname%">
+                                                                                                        BPKVorname
+                                                                                                    </span>
+                                                                                                    <span class="pf_bpknachname"
+                                                                                                          data-fs-email-placeholder="%BPKNachName%"
+                                                                                                          title="%BPKNachName%">
+                                                                                                        BPKNachName
+                                                                                                    </span>
+                                                                                                    <span class="pf_bpkgeburtsdatum"
+                                                                                                          data-fs-email-placeholder="%BPKGeburtsdatum%"
+                                                                                                          title="%BPKGeburtsdatum%">
+                                                                                                        BPKGeburtsdatum
+                                                                                                    </span>
+                                                                                                    <span class="pf_bpkplz"
+                                                                                                          data-fs-email-placeholder="%BPKPLZ%"
+                                                                                                          title="%BPKPLZ%">
+                                                                                                        BPKPLZ
+                                                                                                    </span>
+                                                                                                    <span class="pf_personid"
+                                                                                                          data-fs-email-placeholder="%PersonID%"
+                                                                                                          title="%PersonID%">
+                                                                                                        PersonID
+                                                                                                    </span>
+                                                                                                    <span class="pf_formularnummer"
+                                                                                                          data-fs-email-placeholder="%Formularnummer%"
+                                                                                                          title="%Formularnummer%">
+                                                                                                        Formularnummer
+                                                                                                    </span>
+                                                                                                    <span class="pf_xguid"
+                                                                                                          data-fs-email-placeholder="%xGuid%"
+                                                                                                          title="%xGuid%">
+                                                                                                        xGuid
+                                                                                                    </span>
+                                                                                                    <span class="pf_mandatsid"
+                                                                                                          data-fs-email-placeholder="%MandatsID%"
+                                                                                                          title="%MandatsID%">
+                                                                                                        MandatsID
+                                                                                                    </span>
+                                                                                                    <span class="pf_emaildatum"
+                                                                                                          data-fs-email-placeholder="%Emaildatum%"
+                                                                                                          title="%Emaildatum%">
+                                                                                                        Emaildatum
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                                ,
                                                                                                 <br></br>
                                                                                                 in der Frühjahrsausgabe
                                                                                                 2020 des Newsletters
@@ -158,24 +355,6 @@
                                                                                                 Neuigkeiten Ihres
                                                                                                 Patenwolfs AMAROK
                                                                                                 informieren.
-                                                                                                <br></br>
-                                                                                                Trotz der im Moment
-                                                                                                schwierigen Lage wird
-                                                                                                "Ihr" Patentier
-                                                                                                natürlich wie gewohnt
-                                                                                                bestmöglich von uns
-                                                                                                versorgt und
-                                                                                                beschäftigt. Und gerade
-                                                                                                in dieser für uns alle
-                                                                                                herausfordernden Zeit
-                                                                                                sind Patinnen und Paten
-                                                                                                wie Sie, die das WSC mit
-                                                                                                Ihrem
-                                                                                                Patenschaftsbeitrag
-                                                                                                unterstützen, eine
-                                                                                                unverzichtbare Hilfe.
-                                                                                                Dafür sagen wir
-                                                                                                "DANKE!".
                                                                                             </h4>
                                                                                         </td>
                                                                                     </tr>
