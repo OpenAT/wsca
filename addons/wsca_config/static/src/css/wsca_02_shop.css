@@ -14,7 +14,7 @@ body #website_sale_login_info {
 /* ----------------------------- */
 
 .ppt_opc #wsd-checkout-box img.product-image {
-    width: initial;
+    width: initial !important;
 }
 /* Center the Amount Title */
 body #product_detail .amount_title {
