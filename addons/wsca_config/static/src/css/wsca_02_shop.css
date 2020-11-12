@@ -29,6 +29,9 @@ body .price_donate .form-control {
     text-align: inherit;
 }
 
+.has-feedback .form-control {
+    padding-right: 8px;
+}
 /* Add some space between donation buttons and input on small layout */
 span.price_donate_suggested_outer {
     display: inline-block;
