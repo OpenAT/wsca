@@ -15,10 +15,10 @@
     Hunde unserer weltweit einzigartigen Forschungseinrichtung!<br>
     Sie leisten einen wichtigen Beitrag zur hohen Qualität der Tierhaltung, zur <br>
     Weiterentwicklung unserer wichtigen Forschungsarbeit und zur ständigen<br>
-        Verbesserung der Lebensqualität unserer Tiere des Wolfsforschungszentrums.</p>
+        Verbesserung der Lebensqualität unserer Tiere des Wolfsforschungszentrums.<p></p>
 
-    <table style="table-layout:fixed; witdh:100%; border:0;">
-        <tr><th colspan="2"><h3><br>Ihre Angaben zu Ihrer Spende</h3></th></tr>
+    <table style="table-layout:fixed; witdh:100%; border:0; font-family: Arial, Verdana, sans-serif; font-size: 14px;">
+        <tbody><tr><th colspan="2" style="text-align:left;"><h3><br>Ihre Angaben zu Ihrer Spende</h3></th></tr>
         <tr><td>Nummer:&nbsp;</td><td style="text-align:left;"><strong>${object.name}</strong></td></tr>
         <tr><td>Spendenhöhe:&nbsp;</td><td style="text-align:left;"><strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong></td></tr>
         <tr><td>Zahlungsmittel:&nbsp;</td><td style="text-align:left;"><strong>${object.payment_aquirer_id or ''}</strong></td></tr>
@@ -42,10 +42,10 @@
             in Bearbeitung
           % endif
           </strong></td></tr>
-    </table>
+    </tbody></table>
     <p></p>
-    <table style="table-layout:fixed; witdh:100%; border:0;">
-        <tr><th colspan="2"><h3>Ihre Daten</h3></th></tr>
+    <table style="table-layout:fixed; witdh:100%; border:0; font-family: Arial, Verdana, sans-serif; font-size: 14px;">
+        <tbody><tr><th colspan="2" style="text-align:left;"><h3>Ihre Daten</h3></th></tr>
        <tr><td>Name:&nbsp;</td><td style="text-align:left;"><strong>
       % if object.partner_id.gender == 'male':
         Herr
@@ -73,7 +73,7 @@
           <a href="mailto:${object.partner_id.email}">${object.partner_id.email}</a>
       % endif
           </strong></td></tr>
-    </table>
+    </tbody></table>
     <p>Bleiben Sie auf dem Laufenden und folgen Sie uns auf <a href="https://www.facebook.com/WolfScienceCenter/" target="_blank">Facebook</a> oder <a href="https://www.instagram.com/wolfscience/" target="_blank">Instagram</a>.<br>
     Unterstützen Sie uns auch mit einer Spendenaktion auf <a href="https://www.facebook.com/fund/WolfScienceCenter/" target="_blank">Facebook</a>. Herzlichen Dank!</p>
 
@@ -85,44 +85,21 @@
     Ihr Team des Wolfsforschungszentrum
     </p>
 
-    <p><span style="color:#92a8a7;">Wolf Science Center (WSC) | Wolfsforschungszentrum</span><br>
+    <table style="table-layout:fixed; witdh:100%; border:0; font-family: Arial, Verdana, sans-serif; font-size: 14px;">
+        <tbody><tr><td><span style="color:#92a8a7;">Wolf Science Center (WSC) | Wolfsforschungszentrum</span><br>
     eine Forschungseinrichtung der Vetmeduni Vienna<br>
     Dörfles 48, 2115 Ernstbrunn<br>
     T +43 1 25077-1154<br>
     M +43 664 60257-6750<br>
     <a href="mailto:spenden@wolfscience.at" style="background-color: rgb(255, 255, 255);">spenden@wolfscience.at</a><br>
-    <a href="https://wsca.datadialog.net/fso/email/www.wolfscience.at" style="background-color: rgb(255, 255, 255);" target="_blank">www.wolfscience.at</a><br>
-    <a href="https://wsca.datadialog.net/fso/email/www.facebook.com/WolfScienceCenter" style="background-color: rgb(255, 255, 255);" target="_blank">www.facebook.com/WolfScienceCenter</a>
-    </p>
-
-    <p>
-    <table style="table-layout:fixed; witdh:100%; border:0;">
-        <tr><td>
-            <span style="color:#92a8a7;"><strong>${object.company_id.name}</strong></span><br>
-          % if object.company_id.street:
-            ${object.company_id.street}<br>
-          % endif
-          % if object.company_id.city or object.company_id.zip:
-            ${object.company_id.zip} ${object.company_id.city}<br>
-          % endif
-          % if object.company_id.country_id:
-            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br>
-          % endif
-          % if object.company_id.phone:
-            Tel.: ${object.company_id.phone}<br>
-          % endif
-          % if object.company_id.email:
-            E-Mail.: <a href="mailto:${object.company_id.email}">${object.company_id.email}</a><br>
-          % endif
-          % if object.company_id.website:
-            Web.: <a href="${object.company_id.website}">${object.company_id.website}</a><br>
-          % endif
+    <a href="https://www.wolfscience.at" style="background-color: rgb(255, 255, 255);" target="_blank">https://www.wolfscience.at</a><br>
+    <a href="https://www.facebook.com/WolfScienceCenter" style="background-color: rgb(255, 255, 255);" target="_blank">https://www.facebook.com/WolfScienceCenter</a>
             </td>
-            <td>
-              <div style="padding:5px; margin:0px;"><img src="https://spenden.wolfscience.at/website/image/ir.attachment/952_9a42ec3/datas" width:150; style="width: 100%; max-width:150px;">
+            <td style="width: 150px; overflow: hidden; text-overflow: ellipsis;">
+              <div style="padding:5px; margin:0px;"><img src="https://spenden.wolfscience.at/website/image/ir.attachment/952_9a42ec3/datas" width="150" style="width: 100%; height: auto; max-heigth: max-width:150px; display: block; border: 0px; outline: none;">
               </div>
             </td>
         </tr>
-    </table>
-    </p>
+    </tbody></table>
+
 </div>
