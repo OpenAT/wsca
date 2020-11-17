@@ -472,7 +472,7 @@
                                                                                                     mit dem WSC!
                                                                                                 </strong>
                                                                                             </h4>
-                                                                                            <p><b>Wir danken unseren Sponsoren:</b></p>
+                                                                                            <p><b>Wir danken auch unseren Sponsoren:</b></p>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -541,8 +541,9 @@
                                                                                                     <tr>
                                                                                                         <td class="textContent ckediting_enabled"
                                                                                                             valign="top">
-                                                                                                            <h3>
+                                                                                                            <h4>
                                                                                                                 <span style="color:#000000;">
+                                                                                                                    <a href="https://the-goodstuff.com/" target="_blank">
                                                                                                                     The
                                                                                                                     Good
                                                                                                                     Stuff,
@@ -550,8 +551,9 @@
                                                                                                                     Futterpartner
                                                                                                                     des
                                                                                                                     WSC
+                                                                                                                    </a>
                                                                                                                 </span>
-                                                                                                            </h3>
+                                                                                                            </h4>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -624,13 +626,15 @@
                                                                                                     <tr>
                                                                                                         <td class="textContent ckediting_enabled"
                                                                                                             valign="top">
-                                                                                                            <h3>
+                                                                                                            <h4>
                                                                                                                 <span style="color:#000000;">
+                                                                                                                <a href="http://www.gh-luger.at/" target="_blank">
                                                                                                                     Ökologisches
-                                                                                                                    Gästerhaus
+                                                                                                                    Gästehaus
                                                                                                                     Luger
+                                                                                                                </a>
                                                                                                                 </span>
-                                                                                                            </h3>
+                                                                                                            </h4>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -702,8 +706,9 @@
                                                                                                     <tr>
                                                                                                         <td class="textContent ckediting_enabled"
                                                                                                             valign="top">
-                                                                                                            <h3>
+                                                                                                            <h4>
                                                                                                                 <span style="color:#000000;">
+                                                                                                                    <a href="https://huetthaler.at/" target="_blank">
                                                                                                                     Familienbetrieb
                                                                                                                     Hütthaler
                                                                                                                     beste
@@ -711,8 +716,9 @@
                                                                                                                     Wurst-
                                                                                                                     &amp;
                                                                                                                     Schinkenprodukte
+                                                                                                                    </a>
                                                                                                                 </span>
-                                                                                                            </h3>
+                                                                                                            </h4>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -806,10 +812,10 @@
                                                                                                 Wolf Science Center,
                                                                                                 Dörfles 48, 2115
                                                                                                 Ernstbrunn<br></br>
-                                                                                                <a href="mailto:patenschaften@wolfscience.at">
+                                                                                                <a class="wsca_small" href="mailto:patenschaften@wolfscience.at">
                                                                                                     patenschaften@wolfscience.at</a>
                                                                                                 ,
-                                                                                                <a href="https://www.wolfscience.at"
+                                                                                                <a class="wsca_small" href="https://www.wolfscience.at"
                                                                                                    target="_blank">
                                                                                                     www.wolfscience.at
                                                                                                 </a>

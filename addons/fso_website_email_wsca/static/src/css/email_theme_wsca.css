@@ -146,6 +146,9 @@ blockquote {
     border-left: 5px solid #8c8c8c;
 }
 
+.wsca_small {
+    font-size: 14px;
+}
 p.wsca_small {
     font-size: 14px;
 }
