@@ -25,13 +25,13 @@
         <tr><td>Datum:&nbsp;</td><td style="text-align:left;"><strong>${format_tz(object.date_order, tz='Europe/Vienna', format='%Y-%m-%d %H:%M')}</strong></td></tr>
           <tr><td>Spendenzweck:&nbsp;</td><td style="text-align:left;"><strong>
                   % for line in object.order_line:
-                    ${line.product_id.name or ''},
+                    ${line.product_id.name or ''}&nbsp;
                   % endfor
                   </strong></td></tr>
           <tr><td>Spendenintervall:&nbsp;</td><td style="text-align:left;"><strong>
                   % for line in object.order_line:
                       %if line.payment_interval_name:
-                        ${line.payment_interval_name or ''},
+                        ${line.payment_interval_name or ''}&nbsp;
                       %endif
                   % endfor
                   </strong></td></tr>
