@@ -21,7 +21,7 @@
         <tbody><tr><th colspan="2" style="text-align:left;"><h3><br>Ihre Angaben zu Ihrer Spende</h3></th></tr>
         <tr><td>Nummer:&nbsp;</td><td style="text-align:left;"><strong>${object.name}</strong></td></tr>
         <tr><td>Spendenhöhe:&nbsp;</td><td style="text-align:left;"><strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong></td></tr>
-        <tr><td>Zahlungsmittel:&nbsp;</td><td style="text-align:left;"><strong>${object.payment_aquirer_id or ''}</strong></td></tr>
+        <tr><td>Zahlungsmittel:&nbsp;</td><td style="text-align:left;"><strong>${object.payment_acquirer_id or ''}</strong></td></tr>
         <tr><td>Datum:&nbsp;</td><td style="text-align:left;"><strong>${format_tz(object.date_order, tz='Europe/Vienna', format='%Y-%m-%d %H:%M')}</strong></td></tr>
           <tr><td>Spendenzweck:&nbsp;</td><td style="text-align:left;"><strong>
                   % for line in object.order_line:
