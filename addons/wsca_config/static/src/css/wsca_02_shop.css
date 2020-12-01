@@ -206,6 +206,18 @@ div.checkout_steps_buttons {
     display: none;
 }
 
+/* correction of new class btn_primary at the price_donate input field */
+#price_donate.btn-primary:active,
+#price_donate.btn-primary:focus,
+#price_donate.btn-primary:hover {
+  background-color: #9b1335;
+  color: white;
+}
+#price_donate.btn-primary {
+  background-color: white;
+  color: #92a8a7;
+}
+
 /* Payment Tabs */
 /* ------------ */
 #payment_method .nav > li > a {
