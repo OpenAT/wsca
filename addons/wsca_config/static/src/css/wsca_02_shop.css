@@ -29,6 +29,10 @@ body .price_donate .form-control {
     text-align: inherit;
 }
 
+#wsd_checkout_form_inside_row .fso-checkbox-feedback-pos > span.glyphicon.glyphicon-remove.form-control-feedback {
+    top: -5px;
+}
+
 .has-feedback .form-control {
     padding-right: 8px;
 }
