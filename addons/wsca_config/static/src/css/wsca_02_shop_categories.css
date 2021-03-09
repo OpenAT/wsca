@@ -107,6 +107,96 @@ body[data-rootcatid="6"] #products_grid_before {
     margin-top: 3.5em;
 }
 
+/* col-md-12 auf category fixe kachel größen begin */
+body[data-rootcatid="6"] .quick_add_to_cart {
+    position: absolute;
+}
+body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
+    visibility: hidden;
+}
+body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
+    visibility: visible;
+    content:'jetzt Pate werden';
+    display: block;
+    position: absolute;
+    background-color: #92a8a7;
+    padding: 3px;
+    top: 2px;
+    width: auto;
+}
+body[data-rootcatid="6"] .oe_product section {
+    height: 100px;
+    top: 200px;
+}
+body[data-rootcatid="6"] .oe_product .oe_product_image {
+    height: 200px;
+}
+@media (min-width: 992px) {
+    body[data-rootcatid="6"] .col-md-12 .oe-height-2 {
+        height: 300px;
+    }
+}
+body[data-rootcatid="4"] .quick_add_to_cart {
+    position: absolute;
+}
+body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
+    visibility: hidden;
+}
+body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
+    visibility: visible;
+    content:'jetzt Freund werden';
+    display: block;
+    position: absolute;
+    background-color: #92a8a7;
+    padding: 3px;
+    top: 2px;
+    width: auto;
+}
+body[data-rootcatid="4"] .oe_product section {
+    height: 100px;
+    top: 200px;
+}
+body[data-rootcatid="4"] .oe_product .oe_product_image {
+    height: 200px;
+}
+@media (min-width: 992px) {
+    body[data-rootcatid="4"] .col-md-12 .oe-height-2 {
+        height: 300px;
+    }
+}
+
+body[data-rootcatid="5"] .quick_add_to_cart {
+    position: absolute;
+}
+body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
+    visibility: hidden;
+}
+body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
+    visibility: visible;
+    content:'jetzt Freund werden';
+    display: block;
+    position: absolute;
+    background-color: #92a8a7;
+    padding: 3px;
+    top: 2px;
+    width: auto;
+}
+
+body[data-rootcatid="5"] .oe_product section {
+    height: 100px;
+    top: 200px;
+}
+body[data-rootcatid="5"] .oe_product .oe_product_image {
+    height: 200px;
+}
+
+@media (min-width: 992px) {
+    body[data-rootcatid="5"] .col-md-12 .oe-height-2 {
+        height: 300px;
+    }
+}
+/* col-md-12 auf category fixe kachel größen end */
+
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="7"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
