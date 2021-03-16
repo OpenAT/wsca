@@ -208,6 +208,16 @@ body[data-rootcatid="7"] .products_pager .input-group  {
 body[data-rootcatid="7"] #products_grid_before {
     margin-top: 3.5em;
 }
+.sponsorAndFriendshipOnly {
+    display: none;
+}
+body[data-rootcatid="4"] .sponsorAndFriendshipOnly,
+body[data-rootcatid="5"] .sponsorAndFriendshipOnly,
+body[data-rootcatid="6"] .sponsorAndFriendshipOnly,
+body[data-rootcatid="7"] .sponsorAndFriendshipOnly,
+body[data-rootcatid="10"] .sponsorAndFriendshipOnly {
+    display: block;
+}
 
 @media (max-width: 768px) {
     .oe_product section {
@@ -232,6 +242,7 @@ body[data-rootcatid="7"] #products_grid_before {
         margin-top: 4.5em;
     }
 }
+
 .oe_website_sale {
     margin-bottom: 4em !important;
 }
