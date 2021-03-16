@@ -1,0 +1,46 @@
+# docomentation for Special "where did you hear about us field"
+
+# OriginalSeite
+
+# Label
+# WSCA Special Field where did you hear about our program
+
+# Values:
+# keine Angabe
+# WSCA Website
+# Vetmeduni Vienna Website
+# WSC Patenschafts-Broschüre, Infoflyer
+# Besucherprogramm WSC
+# Postalischer Spendenaufruf
+# Empfehlung bestehender Paten
+# Anzeige/Inserat
+# Facebook
+# Instagram
+# Freunde/Bekannte/Verwandte
+# Sonstiges
+
+# This cannot be solved easily cause it would need another field inklusive JS for dynamically load this entry field or not .... first try to ask cusomter if this is ok
+# Otherwise additional work to be done
+
+
+# Field creation withing Odoo Database structure at "System" "Database" "Fields"
+# Add Field
+
+# Custom Field at res.partner
+
+# Feldname:
+# x_HowYouHearBoutSponsorFriendship
+
+# Feldbeschreibung:
+# How did you hear bout us
+
+# Typfeld-Text:
+# selection
+
+# Datenauswahl:
+# [('na','keine Angabe'),('WSCA_Webpage','WSCA Website'),('Vetmeduni_Vienna_Website','Vetmeduni Vienna Website'),('WSC_sponsor_infoflyer','WSC Patenschafts-Broschüre/Infoflyer'),('visit_programm','Besucherprogramm WSC'),('postal_call','Postalischer Spendenaufruf'),('recommended_by_sponsor','Empfehlung bestehender Paten'),('infosign','Anzeige/Inserat'),('facebook','Facebook'),('instagram','Instagram'),('friends_related','Freunde/Bekannte/Verwandte'),('others','Sonstiges')]
+
+# At the Website Checkout Form adding the Field to be shown on Form
+# Adding extra class "sponsorAndFriendshipOnly"
+# generally hide this field
+# display it only at different "categories"
