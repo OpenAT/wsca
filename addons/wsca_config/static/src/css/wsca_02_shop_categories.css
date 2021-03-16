@@ -215,7 +215,12 @@ body[data-rootcatid="4"] .sponsorAndFriendshipOnly,
 body[data-rootcatid="5"] .sponsorAndFriendshipOnly,
 body[data-rootcatid="6"] .sponsorAndFriendshipOnly,
 body[data-rootcatid="7"] .sponsorAndFriendshipOnly,
-body[data-rootcatid="10"] .sponsorAndFriendshipOnly {
+body[data-rootcatid="10"] .sponsorAndFriendshipOnly,
+body[data-last-visited-rootcatid="4"] .sponsorAndFriendshipOnly,
+body[data-last-visited-rootcatid="5"] .sponsorAndFriendshipOnly,
+body[data-last-visited-rootcatid="6"] .sponsorAndFriendshipOnly,
+body[data-last-visited-rootcatid="7"] .sponsorAndFriendshipOnly,
+body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
     display: block;
 }
 
