@@ -116,13 +116,14 @@ body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
 }
 body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
     visibility: visible;
-    content:'jetzt Pate werden';
+    content:'Jetzt abschließen';
     display: block;
     position: absolute;
     background-color: #92a8a7;
-    padding: 3px;
+    padding: 5px 10px;
     top: 2px;
     width: auto;
+    font-family: 'Helvetica Neue LT W01_75 Bold';
 }
 body[data-rootcatid="6"] .oe_product section {
     height: 100px;
@@ -144,13 +145,14 @@ body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
 }
 body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
     visibility: visible;
-    content:'jetzt Freund werden';
+    content:'Jetzt abschließen';
     display: block;
     position: absolute;
     background-color: #92a8a7;
-    padding: 3px;
+    padding: 5px 10px;
     top: 2px;
     width: auto;
+    font-family: 'Helvetica Neue LT W01_75 Bold';
 }
 body[data-rootcatid="4"] .oe_product section {
     height: 100px;
@@ -173,13 +175,14 @@ body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
 }
 body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
     visibility: visible;
-    content:'jetzt Freund werden';
+    content:'Jetzt abschließen';
     display: block;
     position: absolute;
     background-color: #92a8a7;
-    padding: 3px;
+    padding: 5px 10px;
     top: 2px;
     width: auto;
+    font-family: 'Helvetica Neue LT W01_75 Bold';
 }
 
 body[data-rootcatid="5"] .oe_product section {
@@ -195,6 +198,37 @@ body[data-rootcatid="5"] .oe_product .oe_product_image {
         height: 300px;
     }
 }
+
+body[data-rootcatid="10"] .quick_add_to_cart {
+    position: absolute;
+}
+body[data-rootcatid="10"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
+    visibility: hidden;
+}
+body[data-rootcatid="10"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit:after {
+    visibility: visible;
+    content:'Jetzt abschließen';
+    display: block;
+    position: absolute;
+    background-color: #92a8a7;
+    padding: 5px 10px;
+    top: 2px;
+    width: auto;
+    font-family: 'Helvetica Neue LT W01_75 Bold';
+}
+body[data-rootcatid="10"] .oe_product section {
+    height: 100px;
+    top: 200px;
+}
+body[data-rootcatid="10"] .oe_product .oe_product_image {
+    height: 200px;
+}
+@media (min-width: 992px) {
+    body[data-rootcatid="10"] .col-md-12 .oe-height-2 {
+        height: 300px;
+    }
+}
+
 /* col-md-12 auf category fixe kachel größen end */
 
 /* reverse Shop Grid and Cart, move cart under shop grid */
@@ -208,6 +242,8 @@ body[data-rootcatid="7"] .products_pager .input-group  {
 body[data-rootcatid="7"] #products_grid_before {
     margin-top: 3.5em;
 }
+
+
 .sponsorAndFriendshipOnly {
     display: none;
 }
