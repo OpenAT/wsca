@@ -279,7 +279,7 @@ body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
 
 @media (max-width: 768px) {
     .oe_product section {
-        top: 260px !important;
+        top: 198px !important;
     }
         body[data-rootcatid="2"] #products_grid_before {
         margin-top: 4.5em;
@@ -299,6 +299,9 @@ body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
         body[data-rootcatid="7"] #products_grid_before {
         margin-top: 4.5em;
     }
+        body[data-rootcatid="10"] #products_grid_before {
+        margin-top: 4.5em;
+    }
 }
 
 .oe_website_sale {
@@ -312,7 +315,7 @@ body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
          You may need to remove the original css of website.sale becaues the media queries are different for rnde!
 */
 body .col-md-12 .oe-height-2 {
-  height: 380px;
+  height: 300px;
 }
 /* bis 400 px */
 @media (max-width: 400px) {
@@ -323,12 +326,12 @@ body .col-md-12 .oe-height-2 {
 /* ab 992px */
 @media (min-width: 992px) {
     body .col-md-12 .oe-height-2 {
-        height: 380px;
+        height: 300px;
     }
 }
 /* ab 1200px */
 @media (min-width: 1200px) {
     body .col-md-12 .oe-height-2 {
-        height: 380px;
+        height: 300px;
     }
 }
