@@ -30,6 +30,18 @@
      top: 0px !important;
      bottom: 0px !important;
 }
+/* general hide cart total */
+#cart_total {
+    display: none;
+}
+
+/* hide search and pager Info before grid */
+.products_pager {
+    display: none;
+}
+#products_grid section a {
+    text-decoration: none;
+}
 /* hide description in Kacheln*/
 
 #products_grid .oe_product.oe_grid .text-info.oe_subdescription {
@@ -37,7 +49,7 @@
 }
 
 /* special design for additional add to cart button within shop grid view */
-.oe_product_cart .quick_add_to_cart {
+/*.oe_product_cart .quick_add_to_cart {
     position: relative;
     bottom: 10px;
 }
@@ -46,7 +58,7 @@
 }
 .oe_product_cart .quick_add_to_cart .a-submit.fa-shopping-cart:before {
     padding-right:10px;
-}
+}*/
 
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
@@ -108,7 +120,7 @@ body[data-rootcatid="6"] #products_grid_before {
 }
 
 /* col-md-12 auf category fixe kachel größen begin */
-body[data-rootcatid="6"] .quick_add_to_cart {
+/*body[data-rootcatid="6"] .quick_add_to_cart {
     position: absolute;
 }
 body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
@@ -124,20 +136,20 @@ body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     top: 2px;
     width: auto;
     font-family: 'Helvetica Neue LT W01_75 Bold';
-}
+}*/
 body[data-rootcatid="6"] .oe_product section {
-    height: 100px;
-    top: 200px;
+    height: 50px;
+    top: 250px;
 }
 body[data-rootcatid="6"] .oe_product .oe_product_image {
-    height: 200px;
+    height: 300px;
 }
 @media (min-width: 992px) {
     body[data-rootcatid="6"] .col-md-12 .oe-height-2 {
         height: 300px;
     }
 }
-body[data-rootcatid="4"] .quick_add_to_cart {
+/*body[data-rootcatid="4"] .quick_add_to_cart {
     position: absolute;
 }
 body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
@@ -153,13 +165,13 @@ body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     top: 2px;
     width: auto;
     font-family: 'Helvetica Neue LT W01_75 Bold';
-}
+}*/
 body[data-rootcatid="4"] .oe_product section {
-    height: 100px;
-    top: 200px;
+    height: 50px;
+    top: 250px;
 }
 body[data-rootcatid="4"] .oe_product .oe_product_image {
-    height: 200px;
+    height: 300px;
 }
 @media (min-width: 992px) {
     body[data-rootcatid="4"] .col-md-12 .oe-height-2 {
@@ -167,7 +179,7 @@ body[data-rootcatid="4"] .oe_product .oe_product_image {
     }
 }
 
-body[data-rootcatid="5"] .quick_add_to_cart {
+/*body[data-rootcatid="5"] .quick_add_to_cart {
     position: absolute;
 }
 body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
@@ -183,14 +195,14 @@ body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     top: 2px;
     width: auto;
     font-family: 'Helvetica Neue LT W01_75 Bold';
-}
+}*/
 
 body[data-rootcatid="5"] .oe_product section {
-    height: 100px;
-    top: 200px;
+    height: 50px;
+    top: 250px;
 }
 body[data-rootcatid="5"] .oe_product .oe_product_image {
-    height: 200px;
+    height: 300px;
 }
 
 @media (min-width: 992px) {
@@ -199,7 +211,12 @@ body[data-rootcatid="5"] .oe_product .oe_product_image {
     }
 }
 
-body[data-rootcatid="10"] .quick_add_to_cart {
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="10"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/*body[data-rootcatid="10"] .quick_add_to_cart {
     position: absolute;
 }
 body[data-rootcatid="10"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
@@ -215,13 +232,13 @@ body[data-rootcatid="10"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shop
     top: 2px;
     width: auto;
     font-family: 'Helvetica Neue LT W01_75 Bold';
-}
+}*/
 body[data-rootcatid="10"] .oe_product section {
-    height: 100px;
-    top: 200px;
+    height: 50px;
+    top: 250px;
 }
 body[data-rootcatid="10"] .oe_product .oe_product_image {
-    height: 200px;
+    height: 300px;
 }
 @media (min-width: 992px) {
     body[data-rootcatid="10"] .col-md-12 .oe-height-2 {
@@ -300,7 +317,7 @@ body .col-md-12 .oe-height-2 {
 /* bis 400 px */
 @media (max-width: 400px) {
     body #products_grid .oe_product section {
-        background: #f8f8f8;
+        background: #66666678;
     }
 }
 /* ab 992px */
