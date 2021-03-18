@@ -5,7 +5,7 @@
 /* Product GRID */
 /* ------------ */
 #products_grid .oe_product section {
-    background: #666666;
+    background: #66666675;
     font-size: 20px;
 }
 #products_grid .oe_product section h5 {
@@ -138,8 +138,8 @@ body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     font-family: 'Helvetica Neue LT W01_75 Bold';
 }*/
 body[data-rootcatid="6"] .oe_product section {
-    height: 50px;
-    top: 250px;
+    height: 40px;
+    top: 260px;
 }
 body[data-rootcatid="6"] .oe_product .oe_product_image {
     height: 300px;
@@ -167,8 +167,8 @@ body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     font-family: 'Helvetica Neue LT W01_75 Bold';
 }*/
 body[data-rootcatid="4"] .oe_product section {
-    height: 50px;
-    top: 250px;
+    height: 40px;
+    top: 260px;
 }
 body[data-rootcatid="4"] .oe_product .oe_product_image {
     height: 300px;
@@ -198,8 +198,8 @@ body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
 }*/
 
 body[data-rootcatid="5"] .oe_product section {
-    height: 50px;
-    top: 250px;
+    height: 40px;
+    top: 260px;
 }
 body[data-rootcatid="5"] .oe_product .oe_product_image {
     height: 300px;
@@ -234,8 +234,8 @@ body[data-rootcatid="10"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shop
     font-family: 'Helvetica Neue LT W01_75 Bold';
 }*/
 body[data-rootcatid="10"] .oe_product section {
-    height: 50px;
-    top: 250px;
+    height: 40px;
+    top: 260px;
 }
 body[data-rootcatid="10"] .oe_product .oe_product_image {
     height: 300px;
@@ -279,7 +279,7 @@ body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
 
 @media (max-width: 768px) {
     .oe_product section {
-        top: 296px !important;
+        top: 260px !important;
     }
         body[data-rootcatid="2"] #products_grid_before {
         margin-top: 4.5em;
@@ -305,8 +305,8 @@ body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
     margin-bottom: 4em !important;
 }
 .oe_product section {
-    top: 138px;
-    min-height: 80px !important;
+    /*top: 138px;*/
+    min-height: 50px !important;
 }
 /* TODO: Shop Grid Size for col md-12 and two products per row
          You may need to remove the original css of website.sale becaues the media queries are different for rnde!
@@ -317,7 +317,7 @@ body .col-md-12 .oe-height-2 {
 /* bis 400 px */
 @media (max-width: 400px) {
     body #products_grid .oe_product section {
-        background: #66666678;
+        background: #66666675;
     }
 }
 /* ab 992px */
