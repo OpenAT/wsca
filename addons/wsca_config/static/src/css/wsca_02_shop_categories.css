@@ -306,7 +306,7 @@ body[data-last-visited-rootcatid="10"] .sponsorAndFriendshipOnly {
 }
 .oe_product section {
     /*top: 138px;*/
-    min-height: 50px !important;
+    min-height: 40px !important;
 }
 /* TODO: Shop Grid Size for col md-12 and two products per row
          You may need to remove the original css of website.sale becaues the media queries are different for rnde!
