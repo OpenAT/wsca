@@ -244,3 +244,6 @@ body .oe_blue {
     color: white;
 }
 
+#wsd_checkout_form .modal.in .modal-dialog {
+    transform: translateY(-100%);
+}
