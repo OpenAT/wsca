@@ -269,3 +269,9 @@ div.checkout_steps_buttons {
 #products_grid_before .text-left small_cart_buttons .clearfix {
     float: right;
 }
+.giftee-checkbox label.h3 {
+    color: #92a8a7;
+}
+#wsd_checkout_form #giftee-fields .form-control-feedback {
+    right: 18px;
+}
