@@ -52,23 +52,38 @@
         </xpath>
     </template>
     <!-- wsca THEME AND CSS -->
-    <template id="website.theme_wsca" name="wsca" inherit_id="website.theme" active="True" customize_show="True">
-        <xpath expr="//link[@id='bootstrap_css']" position="replace">
+    <!--<template id="website.theme_wsca" name="wsca" inherit_id="website.theme" active="True" customize_show="True">-->
+        <template id="website.theme_wsca" name="wsca" inherit_id="website.layout" active="True" customize_show="True">
+        <!--<xpath expr="//link[@id='bootstrap_css']" position="replace">-->
+            <xpath expr="//head" position="inside">
+
             <!-- JOES STUFF -->
             <!-- <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_custom_fonts.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/wsca_config/static/src/css/bootstrap_wsca/css/bootstrap.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/wsca_config/static/src/css/bootstrap_wsca/css/bootstrap-theme.min.css' t-ignore="true"/> -->
             <!--<link rel='stylesheet' href='/wsca_config/static/src/css/wsca.css' t-ignore="true"/>-->
             <!--<script type="text/javascript" src="/wsca_config/static/src/js/textreplace.js"/>-->
-            <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" t-ignore="true"/>
-            <!-- BY MIKE -->
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_bootstrap/css/bootstrap.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_01_theme.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_01_theme_buttons.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_02_shop.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_02_shop_categories.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_09_glyphicons.css' t-ignore="true"/>
+            <!--<t t-esc="request.httprequest.host_url"></t>-->
+            <t t-if="request and request.httprequest and request.httprequest.host_url and 'https://spenden.vetmeduni.ac.at/' in request.httprequest.host_url">
+                <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_bootstrap/css/bootstrap.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_01_theme.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_01_theme_buttons.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_02_shop.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_02_shop_categories.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_09_glyphicons.css' t-ignore="true"/>
+            </t>
+            <t t-if="not request or not request.httprequest or not request.httprequest.host_url or 'http://spenden.vetmeduni.at.at/' not in request.httprequest.host_url">
+                <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_bootstrap/css/bootstrap.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_01_theme.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_01_theme_buttons.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_02_shop.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_02_shop_categories.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_09_glyphicons.css' t-ignore="true"/>
+            </t>
         </xpath>
     </template>
 <!--     <template id="wsca_relauch_custom_css" inherit_id="website.layout" name="wsca Relauch Custom CSS">

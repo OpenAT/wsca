@@ -1,0 +1,35 @@
+/* One Page Checkout */
+
+.ppt_opc #wsd-checkout-box img.product-image {
+    width: initial;
+}
+
+/* Price Donate */
+#price_donate {
+    color: #AF2144;
+}
+/* arbitrary_price */
+span.price_donate_suggested_currency {
+    color: #fff;
+}
+.arbitrary_price .btn-default {
+    color: #fff;
+}
+.price_donate_suggested {
+    background-color: #AF2144;
+    background-image: none;
+    border-color: #fff;
+    border: 2px solid #fff;
+}
+.price_donate_suggested:hover {
+    background-color: #731d3a;
+}
+
+/* add to cart Button */
+#add_to_cart {
+        background-color: #AF2144;
+    background-image: none;
+    border-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0px;
+}
