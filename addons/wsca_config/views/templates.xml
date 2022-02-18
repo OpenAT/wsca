@@ -64,7 +64,7 @@
             <!--<link rel='stylesheet' href='/wsca_config/static/src/css/wsca.css' t-ignore="true"/>-->
             <!--<script type="text/javascript" src="/wsca_config/static/src/js/textreplace.js"/>-->
             <!--<t t-esc="request.httprequest.host_url"></t>-->
-            <t t-if="request and request.httprequest and request.httprequest.host_url and 'https://spenden.vetmeduni.ac.at/' in request.httprequest.host_url">
+            <t t-if="request and request.httprequest and request.httprequest.host_url and 'https://spenden.vetmeduni.ac.at' in request.httprequest.host_url">
                 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" t-ignore="true"/>
                 <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_bootstrap/css/bootstrap.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
@@ -74,7 +74,7 @@
                 <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_02_shop_categories.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/wsca_config/static/src/css/veme/veme_09_glyphicons.css' t-ignore="true"/>
             </t>
-            <t t-if="not request or not request.httprequest or not request.httprequest.host_url or 'https://spenden.vetmeduni.at.at/' not in request.httprequest.host_url">
+            <t t-if="not request or not request.httprequest or not request.httprequest.host_url or 'https://spenden.vetmeduni.at.at' not in request.httprequest.host_url">
                 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" t-ignore="true"/>
                 <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_bootstrap/css/bootstrap.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/wsca_config/static/src/css/wsca_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
