@@ -1,0 +1,52 @@
+/* OnePage Checkout redesign Transparent Background */
+
+.row.one-page-checkout.ppt_opc-checkout {
+    border: 1px solid white;
+    background-color: #af2144;
+    padding-bottom: 10px;
+}
+.row.one-page-checkout.ppt_opc-checkout p,
+.row.one-page-checkout.ppt_opc-checkout a,
+.row.one-page-checkout.ppt_opc-checkout .glyphicon-info-sign,
+.row.one-page-checkout.ppt_opc-checkout {
+    color: white;
+}
+.row.one-page-checkout.ppt_opc-checkout .text-danger {
+    color: white;
+}
+.row.one-page-checkout.ppt_opc-checkout .text-danger:after {
+    content: "* (Pflichtfeld)";
+    font-size: 12px;
+}
+.row.one-page-checkout.ppt_opc-checkout .text-muted,
+.price_donate .input-group-addon {
+    color: #dbd8d8;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: white;
+    background-color: #8e1031;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #d02353;
+}
+#add_to_cart.btn-primary {
+    background-color: #8e1031;
+    background-image: none;
+    border-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: x-large;
+}
+#add_to_cart.btn-primary:hover {
+    background-color: #d02353;
+}
+.btn-default:active,
+.btn-default:focus {
+    background-color: #8e1031;
+}
+.btn-default:hover {
+    background-color: #d02353;
+}
