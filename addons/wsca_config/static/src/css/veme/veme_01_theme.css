@@ -1,5 +1,9 @@
 /* OnePage Checkout redesign Transparent Background */
 
+body {
+    background-color: transparent;
+}
+
 .row.one-page-checkout.ppt_opc-checkout {
     border: 1px solid white;
     background-color: #af2144;
