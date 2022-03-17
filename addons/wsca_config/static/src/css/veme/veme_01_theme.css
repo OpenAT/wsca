@@ -54,3 +54,10 @@ body {
 .btn-default:hover {
     background-color: #d02353;
 }
+div#aq12.tab-pane > div:nth-child(2) > div:nth-child(1) > div:nth-child(6) {
+    display: none;
+}
+
+#payment_method .tab-content {
+    height: auto;
+}
