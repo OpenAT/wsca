@@ -61,3 +61,30 @@ div#aq12.tab-pane > div:nth-child(2) > div:nth-child(1) > div:nth-child(6) {
 #payment_method .tab-content {
     height: auto;
 }
+/* Modal Box Styles */
+.row.one-page-checkout.ppt_opc-checkout .modal-dialog,
+.row.one-page-checkout.ppt_opc-checkout .modal-body p {
+    color: black;
+}
+.row.one-page-checkout.ppt_opc-checkout .modal-dialog .btn-default:hover {
+    background-color: #e0e0e0;
+}
+/* IFRAME MODAL BOX BEHAVIOR BEGIN */
+
+#wsd_checkout_form .form-group {
+        position: relative !important;
+}
+.modal-open .modal {
+        overflow: visible !important;
+}
+.modal {
+    position: absolute !important;
+}
+
+#oe_main_menu_navbar div.modal.in > div.modal-dialog > div.modal-content {
+    position: relative;
+}
+/* BODY SCROLL AFTER ADDING MODAL BEHAVIOR -- STILL NEED TESTS */
+#wsd_checkout_steps_nav > div > div > a[href*="login"].btn.btn-primary.navbar-btn {
+  display: none;
+}
