@@ -33,3 +33,13 @@ span.price_donate_suggested_currency {
     border: 2px solid #fff;
     border-radius: 0px;
 }
+/* correction of new class btn_primary at the price_donate input field */
+#price_donate.btn-primary,
+#price_donate.btn-primary:active,
+#price_donate.btn-primary:focus,
+#price_donate.btn-primary:visited,
+#price_donate.btn-primary:hover {
+  background-color: #f1f1f1;
+  background-image:none;
+  color: #AF2144;
+}

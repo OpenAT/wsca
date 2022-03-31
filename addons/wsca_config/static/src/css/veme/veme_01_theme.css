@@ -66,6 +66,9 @@ div#aq12.tab-pane > div:nth-child(2) > div:nth-child(1) > div:nth-child(6) {
 .row.one-page-checkout.ppt_opc-checkout .modal-body p {
     color: black;
 }
+.row.one-page-checkout.ppt_opc-checkout .modal-body a {
+    color: #af2144;
+}
 .row.one-page-checkout.ppt_opc-checkout .modal-dialog .btn-default:hover {
     background-color: #e0e0e0;
 }
