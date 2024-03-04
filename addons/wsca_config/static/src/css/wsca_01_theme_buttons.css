@@ -10,17 +10,17 @@ btn-default {
 }
 .btn-primary:hover,
 .btn-primary a:hover {
-    border-color: #9b1335;
+    border-color: #AF2144;
     color: #fff;
-    background-color: #9b1335;
+    background-color: #AF2144;
 
 
 }
 .btn-default:hover,
 .btn-default a:hover {
-    border-color: #9b1335;
+    border-color: #AF2144;
     color: #fff;
-    background-color: #9b1335;
+    background-color: #AF2144;
 
 }
 /* Remove Button BG Gradient */

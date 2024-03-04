@@ -1103,7 +1103,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #9b1335;
+  color: #AF2144;
   text-decoration: underline;
 }
 a:focus {
@@ -3403,7 +3403,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #9b1335;
+  color: #AF2144;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4502,7 +4502,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #9b1335;
+  background-color: #AF2144;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4514,7 +4514,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #9b1335;
+  background-color: #AF2144;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -4529,7 +4529,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #9b1335;
+    background-color: #AF2144;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4539,11 +4539,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-toggle {
-  border-color: #9b1335;
+  border-color: #AF2144;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #9b1335;
+  background-color: #AF2144;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #92a8a7;
@@ -4689,7 +4689,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   content: ">\00a0";
 }
 .breadcrumb > .active {
-  color: #9b1335;
+  color: #AF2144;
 }
 .pagination {
   display: inline-block;
@@ -4717,7 +4717,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   z-index: 2;
-  color: #9b1335;
+  color: #AF2144;
   background-color: #eeeeee;
   border-color: #dddddd;
 }

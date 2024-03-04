@@ -99,13 +99,13 @@ ul.checkout_steps_indicator li a:hover {
     background-color: transparent;
 }
 ul.checkout_steps_indicator li.active {
-    background-color: #9b1335;
+    background-color: #AF2144;
 }
 ul.checkout_steps_indicator li.active a,
 ul.checkout_steps_indicator li.active a:hover,
 ul.checkout_steps_indicator.nav-tabs > li.active > a {
     color: #fff;
-    border-color: #9b1335;
+    border-color: #AF2144;
 }
 
 .nav-tabs > li.active > a {
@@ -117,7 +117,7 @@ ul.checkout_steps_indicator.nav-tabs > li.active > a {
     color: #92a8a7;
 }
 .nav-tabs > li.active > a:hover {
-    background-color: #9b1335;
+    background-color: #AF2144;
     color: #fff;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a {
@@ -125,8 +125,8 @@ ul.checkout_steps_indicator.nav-tabs > li > a {
     color: #92a8a7;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a:hover {
-    border-color: #9b1335;
-    color: #9b1335;
+    border-color: #AF2144;
+    color: #AF2144;
 }
 ul.checkout_steps_indicator.nav-tabs > li.active > a:hover {
     color: #fff;
@@ -214,7 +214,7 @@ div.checkout_steps_buttons {
 #price_donate.btn-primary:active,
 #price_donate.btn-primary:focus,
 #price_donate.btn-primary:hover {
-  background-color: #9b1335;
+  background-color: #AF2144;
   color: white;
 }
 #price_donate.btn-primary {
