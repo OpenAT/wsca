@@ -110,19 +110,19 @@ ul.checkout_steps_indicator.nav-tabs > li.active > a {
 
 .nav-tabs > li.active > a {
     background-color: transparent;
-    color: #92a8a7;
+    color: #757575;
 }
 .nav-tabs > li.active > a:hover {
     background-color: #transparent;
-    color: #92a8a7;
+    color: #757575;
 }
 .nav-tabs > li.active > a:hover {
     background-color: #AF2144;
     color: #fff;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a {
-    border-color: #92a8a7;
-    color: #92a8a7;
+    border-color: #757575;
+    color: #757575;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a:hover {
     border-color: #AF2144;
@@ -159,7 +159,7 @@ div.checkout_steps_buttons {
     color: white !important;
 }
 #wsd-checkout-box > div > div > h1 {
-    color: #92a8a7;
+    color: #757575;
 }
 
 /* ONE PAGE CHECKOUT */
@@ -219,7 +219,7 @@ div.checkout_steps_buttons {
 }
 #price_donate.btn-primary {
   background-color: white;
-  color: #92a8a7;
+  color: #757575;
 }
 
 /* Payment Tabs */
@@ -270,7 +270,7 @@ div.checkout_steps_buttons {
     float: right;
 }
 .giftee-checkbox label.h3 {
-    color: #92a8a7;
+    color: #757575;
 }
 #wsd_checkout_form #giftee-fields .form-control-feedback {
     right: 18px;

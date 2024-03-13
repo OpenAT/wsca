@@ -132,7 +132,7 @@ body[data-rootcatid="6"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     content:'Jetzt abschließen';
     display: block;
     position: absolute;
-    background-color: #92a8a7;
+    background-color: #757575;
     padding: 5px 10px;
     top: 2px;
     width: auto;
@@ -161,7 +161,7 @@ body[data-rootcatid="4"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     content:'Jetzt abschließen';
     display: block;
     position: absolute;
-    background-color: #92a8a7;
+    background-color: #757575;
     padding: 5px 10px;
     top: 2px;
     width: auto;
@@ -191,7 +191,7 @@ body[data-rootcatid="5"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shopp
     content:'Jetzt abschließen';
     display: block;
     position: absolute;
-    background-color: #92a8a7;
+    background-color: #757575;
     padding: 5px 10px;
     top: 2px;
     width: auto;
@@ -228,7 +228,7 @@ body[data-rootcatid="10"] .quick_add_to_cart a.btn.btn-default.btn-xs.fa.fa-shop
     content:'Jetzt abschließen';
     display: block;
     position: absolute;
-    background-color: #92a8a7;
+    background-color: #757575;
     padding: 5px 10px;
     top: 2px;
     width: auto;
