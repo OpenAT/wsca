@@ -2,3 +2,8 @@
     text-wrap: wrap;
     word-wrap: normal;
 }
+
+.btn.btn-primary {
+    background-color: black;
+    background-image: none;
+}
