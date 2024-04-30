@@ -850,63 +850,18 @@
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
                                                                                             <p class="wsca_small">
-                                                                                                Fotos:
-                                                                                            </p>
-
-                                                                                            <p class="wsca_small">©
-                                                                                                Rooobert Bayer<br></br>
-                                                                                                © Thomas Suchanek
-                                                                                            </p>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                                </tbody>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div class="ckediting_disabled snippet_block snippet_block_text_intro">
-                            <table cellpadding="0" cellspacing="0" class="centeringTable">
-                                <tbody>
-                                    <tr>
-                                        <td align="center" valign="top">
-                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
-                                                <tbody>
-                                                    <tr>
-                                                        <td align="center" class="flexibleContainerCell" valign="top">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                                   class="nestedContainer">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td align="center" class="nestedContainerCell"
-                                                                            valign="top">
-                                                                            <table border="0" cellpadding="0"
-                                                                                   cellspacing="0" class="contentTable">
-                                                                                <tbody>
-                                                                                    <tr>
-                                                                                        <td class="textContent ckediting_enabled">
-                                                                                            <p class="wsca_small">
                                                                                                 Wolfsforschungszentrum |
                                                                                                 Wolf Science Center,
                                                                                                 Dörfles 48, 2115
                                                                                                 Ernstbrunn<br></br>
-                                                                                                <a class="wsca_small" href="mailto:patenschaften@wolfscience.at">
-                                                                                                    patenschaften@wolfscience.at</a>
+                                                                                                <a class="wsca_small" href="mailto:patenschaften@wolfscience.at"><b>
+                                                                                                    patenschaften@wolfscience.at
+                                                                                                </b></a>
                                                                                                 ,
                                                                                                 <a class="wsca_small" href="https://www.wolfscience.at"
-                                                                                                   target="_blank">
+                                                                                                   target="_blank"><b>
                                                                                                     www.wolfscience.at
-                                                                                                </a>
+                                                                                                </b></a>
                                                                                                 <br></br>
                                                                                                 Spendenkonto: Vetmeduni
                                                                                                 Wolfsforschung
