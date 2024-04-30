@@ -464,15 +464,10 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
-                                                                                            <h4>
-                                                                                                <strong>Danke für Ihre
-                                                                                                    wertvolle
-                                                                                                    Unterstützung und
-                                                                                                    Ihre Verbundenheit
-                                                                                                    mit dem WSC!
-                                                                                                </strong>
-                                                                                            </h4>
-                                                                                            <p><b>Wir danken auch unseren Sponsoren:</b></p>
+                                                                                            <p><b>
+                                                                                                Bei dieser Gelegenheit möchten wir uns auch sehr herzlich bei unseren Sponsoren,
+                                                                                                die unsere Arbeit schätzen und finanziell unterstützen, bedanken:
+                                                                                            </b></p>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -525,7 +520,7 @@
                                                                                                             <a href="https://the-goodstuff.com/"
                                                                                                                target="_blank">
                                                                                                                 <img class="flexibleImage"
-                                                                                                                     src="/fso_website_email_wsca/static/src/img/TGS_LOGO_2017_Registered_mit-Zusatz.jpg" width="64" alt="TGS Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
+                                                                                                                     src="/fso_website_email_wsca/static/src/img/sponsors/tgs-2017-registered-mit-zusatz-logo.jpg" width="64" alt="TGS Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
                                                                                                             </a>
                                                                                                         </td>
                                                                                                     </tr>
@@ -544,16 +539,105 @@
                                                                                                             <h4>
                                                                                                                 <span style="color:#000000;">
                                                                                                                     <a href="https://the-goodstuff.com/" target="_blank">
-                                                                                                                    The
-                                                                                                                    Good
-                                                                                                                    Stuff,
-                                                                                                                    exklusiver
-                                                                                                                    Futterpartner
-                                                                                                                    des
-                                                                                                                    WSC
+                                                                                                                        The Good Stuff, exklusiver Futterpartner des WSC
                                                                                                                     </a>
                                                                                                                 </span>
                                                                                                             </h4>
+                                                                                                            <p>
+                                                                                                                Wir füttern unsere Tiere mit den hochwertigen Produkten von The Goodstuff,
+                                                                                                                die uns im Rahmen unserer Kooperation zur Verfügung gestellt werden. Vielen
+                                                                                                                Dank dafür!<br />
+                                                                                                                Mit Ihrer Futterbestellung können Sie das WSC zusätzlich unterstützen.
+                                                                                                                Geben Sie dazu den folgenden Code WSC24633 bei Ihrer Erstregistrierung im
+                                                                                                                Onlineshop ein und erhalten Sie bei der Erstbestellung € 10,-
+                                                                                                                Probier-Bonus. Vielen Dank für's Mitmachen.
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="ckediting_disabled snippet_block snippet_block_text_image_left">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft"
+                                                                                                   width="94px">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <a href="https://the-goodstuff.com/"
+                                                                                                               target="_blank">
+                                                                                                                <img class="flexibleImage"
+                                                                                                                     src="/fso_website_email_wsca/static/src/img/sponsors/wks-ohne-ag-logo.png" width="64" alt="Windkraft Simonsfeld" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
+                                                                                                            </a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <h4>
+                                                                                                                <span style="color:#000000;">
+                                                                                                                    <a href="https://www.wksimonsfeld.at/" target="_blank">
+                                                                                                                        Windkraft Simonsfeld
+                                                                                                                    </a>
+                                                                                                                </span>
+                                                                                                            </h4>
+                                                                                                            <p>
+                                                                                                                Die Windkraft Simonsfeld AG ist wie das WSC im niederösterreichischen
+                                                                                                                Ernstbrunn angesiedelt. Dem Unternehmen liegt viel daran, eine nachhaltige
+                                                                                                                Zukunft zu gestalten, dazu gehört auch das Wohl der Tiere. Das WSC und die
+                                                                                                                Windkraft Simonsfeld haben nicht nur ihren Heimatort gemein, sondern auch
+                                                                                                                die Verantwortung gegenüber anderer.
+                                                                                                            </p>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -610,7 +694,7 @@
                                                                                                             <a href="http://www.gh-luger.at"
                                                                                                                target="_blank">
                                                                                                                 <img class="flexibleImage"
-                                                                                                                     src="/fso_website_email_wsca/static/src/img/Logo-oekologisches-gaestehaus.jpg" width="64" alt="GH Luger Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
+                                                                                                                     src="/fso_website_email_wsca/static/src/img/sponsors/oekologisches-gaestehaus-logo.jpg" width="64" alt="Ökologisches Gästehaus Luger" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
                                                                                                             </a>
                                                                                                         </td>
                                                                                                     </tr>
@@ -629,12 +713,16 @@
                                                                                                             <h4>
                                                                                                                 <span style="color:#000000;">
                                                                                                                 <a href="http://www.gh-luger.at/" target="_blank">
-                                                                                                                    Ökologisches
-                                                                                                                    Gästehaus
-                                                                                                                    Luger
+                                                                                                                    Ökologisches Gästehaus Luger
                                                                                                                 </a>
                                                                                                                 </span>
                                                                                                             </h4>
+                                                                                                            <p>
+                                                                                                                Das ökologische Gästehaus Luger unterstützt das WSC bereits seit
+                                                                                                                vielen Jahren mit einer Firmenpatenschaft für unseren "Genießer-Wolf"
+                                                                                                                Amarok, der sich gerne durch die Streicheleinheiten seiner
+                                                                                                                Trainerinnen verwöhnen lässt.
+                                                                                                            </p>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -690,7 +778,7 @@
                                                                                                             valign="top">
                                                                                                             <a href="https://www.huetthaler.at/"
                                                                                                                target="_blank">
-                                                                                                                <img class="flexibleImage" src="/fso_website_email_wsca/static/src/img/Logo-Huetthaler.png" width="64" alt="Huetthaler Logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
+                                                                                                                <img class="flexibleImage" src="/fso_website_email_wsca/static/src/img/sponsors/huetthaler-logo.jpg" width="64" alt="Hütthaler - Experte für Fleisch und Wurst" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-width: 64px;"></img>
                                                                                                             </a>
                                                                                                         </td>
                                                                                                     </tr>
@@ -713,6 +801,12 @@
                                                                                                                     </a>
                                                                                                                 </span>
                                                                                                             </h4>
+                                                                                                            <p>
+                                                                                                                Die Firma Hütthaler versorgt unsere Wölfe und Hunde mit Leckerlies,
+                                                                                                                die wir im Tier-Training gut einsetzen können. Zusätzlich genießen
+                                                                                                                unsere Besucher:innen die Wurstwaren der Firma Hütthaler bei den
+                                                                                                                regelmäßig stattfindenden Howl-Nights.
+                                                                                                            </p>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
